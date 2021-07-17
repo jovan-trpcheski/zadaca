@@ -19,8 +19,8 @@
             <tbody>
             <tr v-for="(row, index) in rows" :key="row.plateNumber">
                 <td v-for="col in cols" :key="col">{{ row[col] }}</td>
-                <td>  <b-button v-b-modal="'my-modal' " class="m-1" @click="editVehicle(index)"><b-icon icon="pencil-square"></b-icon></b-button>
-                    <button @click="deleteVehicle(index)"> <b-icon class="btn-danger" icon="file-x-fill"></b-icon></button></td>
+                <td>  <b-button v-b-modal="'my-modal' " class="m-1 " @click="editVehicle(index)"><b-icon icon="pencil-square"></b-icon></b-button>
+                    <button @click="deleteVehicle(index)" class="m-1 btn btn-secondary"> <b-icon class="btn-danger" icon="file-x-fill"></b-icon></button></td>
             </tr>
             </tbody>
         </table>
