@@ -79,7 +79,7 @@
                 <input type="number" hidden >
                 <br>
 
-                <button class="btn btn-primary" @click="edited"  :disabled="$v.$invalid" >submit</button>
+                <button class="btn btn-primary" @click="edited"  :disabled="$v.$invalid" >Make changes</button>
             </form>
 
         </b-modal>
