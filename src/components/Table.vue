@@ -12,7 +12,10 @@
         <table class="table">
             <thead class="table-dark">
             <tr>
-                <th v-for="col in cols" :key="col">{{ col }}</th>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Plate</th>
+                <th>Model</th>
                 <th>Actions</th>
             </tr>
             </thead>
