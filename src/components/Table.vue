@@ -24,7 +24,7 @@
             </tr>
             </tbody>
         </table>
-        <b-modal id="my-modal">
+        <b-modal id="my-modal" hide-footer title="Change vehicle data">
             <form @submit.prevent="edited">
                 <div class="form-group">
                     <label class="form-label mt-1" for="vehicle-name">Vehicle name</label>
