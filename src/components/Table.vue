@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div>
-            <label class="form-label">Sort by</label>
+            <label class="form-label">Search by</label>
             <select class="form-control mb-2" v-model="column">
                 <option :value="null">No Column Filter</option>
                 <option v-for="col in cols" :key="col">{{ col }}</option>
